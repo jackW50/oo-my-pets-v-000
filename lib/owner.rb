@@ -71,7 +71,7 @@ class Owner
     self.pets.each do |key, array|
       key.each {|pet| pet.mood = "nervous"}
     end
-    binding.pry
+    #binding.pry
     self.pets.keys = []
   end
   #binding.pry
