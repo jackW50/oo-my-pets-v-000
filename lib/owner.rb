@@ -73,9 +73,7 @@ class Owner
       array.each {|pet| pet.mood = "nervous"}
     end
     #binding.pry
-    self.pets.each do |key, value|
-      value = []
-    end 
+    self.pets.update(self.pets) { |key, value| value = [] }
   end
   #binding.pry
   
