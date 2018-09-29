@@ -75,7 +75,7 @@ class Owner
     #binding.pry
     self.pets.update(self.pets) { |key, value| value = [] }
   end
-  #binding.pry
+
   
   def list_pets
    "I have #{self.pets[:fishes].length} fish, #{self.pets[:dogs].length} dog(s), and #{self.pets[:cats].length} cat(s)."
