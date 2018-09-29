@@ -70,7 +70,7 @@ class Owner
   def sell_pets
     binding.pry
     self.pets.each do |key, array|
-      key.each {|pet| pet.mood = "nervous"}
+      array.each {|pet| pet.mood = "nervous"}
     end
     #binding.pry
     self.pets.each do |key, value|
