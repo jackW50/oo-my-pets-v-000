@@ -74,6 +74,7 @@ class Owner
     #binding.pry
     self.pets.each do |key, value|
       value = []
+    end 
   end
   #binding.pry
   
